@@ -35,7 +35,7 @@
   MAINMENU="1-13 15"
 #}}}
 #BASIC SETUP {{{
-  CUPS="y"
+  CUPS="n"
   CUSTOMREPO="n"         # Add custom repositories
   FIRMWARE="y"           # Install custom firmwares
   NFS="n"
@@ -46,7 +46,7 @@
   ZRAM="y"
   ZSH="y"
   OH_MY_ZSH="y"
-  PROPRIETARY_DRIVER="n" # Proprietary (NVIDIA) driver
+  PROPRIETARY_DRIVER="y" # Proprietary (NVIDIA) driver
   FONTCONFIG="y"
   #}}}
   #ADDITIONAL FIRMWARE {{{
@@ -80,7 +80,7 @@
   #12) i3
   #13) OpenBox
   #14) Xmonad
-  DESKTOPENV=4
+  DESKTOPENV=9
   #KDE {{{
     # 1) Choqok
     # 2) Digikam
@@ -103,7 +103,7 @@
     #11) Xcompmgr
     #12) Zathura
     #13) speedtest-cli
-    MISCAPPS="1 3"
+    MISCAPPS="1-3"
   #}}}
   #DISPLAY MANAGER {{{
     # 1) Elsa
@@ -111,7 +111,7 @@
     # 3) LightDM
     # 4) SDDM
     # 5) Slim
-    DISPLAY_MANAGER="3"
+    DISPLAY_MANAGER="2"
   #}}}
   # 1) Icons Themes
   # 2) GTK2|GTK3 Themes
@@ -132,7 +132,7 @@
   # n) None
   NETWORKMANAGER=1
   #USB 3G MODEM SUPPORT
-  USBMODEM="y"
+  USBMODEM="n"
 #}}}
 #ACCESSORIES {{{
   # 1) Albert
@@ -146,7 +146,7 @@
   # 9) Shutter|Hotshots
   #10) Tilix
   #11) Terminator
-  ACCESSORIES_OPTIONS="10"
+  ACCESSORIES_OPTIONS="2-4 10"
 #}}}
 #DEVELOPEMENT {{{
   # 1) Atom
@@ -178,7 +178,7 @@
   # 9) LibreOffice
   #10) OCRFeeder
   #11) Xmind
-  OFFICE_OPTIONS="9"
+  OFFICE_OPTIONS="2 9"
 #}}}
 #SYSTEM TOOLS {{{
   # 1) ClamAV
@@ -196,7 +196,7 @@
   #13) Wine
   #14) netdata
   #15) nload
-  SYSTEMTOOLS_OPTIONS="10"
+  SYSTEMTOOLS_OPTIONS="2 3 5 7 8 10 12 13 15"
 #}}}
 #GRAPHICS {{{
   # 1) Blender
@@ -226,7 +226,7 @@
     # 4) Midori|Konqueror
     # 5) Opera
     # 6) Vivaldi
-    BROWSERS_OPTIONS="3"
+    BROWSERS_OPTIONS="3 6"
   #}}}
   #DOWNLOAD|FILESHARE {{{
     # 1) AeroFS
@@ -242,7 +242,7 @@
     #11) uGet
     #12) youtube-dl
     #13) tixati
-    DOWNLOAD_OPTIONS=""
+    DOWNLOAD_OPTIONS="11 12"
   #}}}
   #EMAIL|RSS {{{
     # 1) Liferea
@@ -259,7 +259,7 @@
     # 7) Telegram Desktop
     # 8) qTox
     # 9) discord
-    IM_OPTIONS="4"
+    IM_OPTIONS="2 9"
   #}}}
   #MAPPING {{{
     # 1) Google Earth
@@ -318,7 +318,7 @@
     # 7) Popcorn Time
     # 8) VLC
     # 9) Kodi
-    VIDEO_PLAYER_OPTIONS="8"
+    VIDEO_PLAYER_OPTIONS="1 2 3 5 8 9"
   #}}}
   #EDITORS|TOOLS {{{
     # 1) Arista
@@ -339,14 +339,14 @@
   #2) PlayOnLinux
   #3) Steam
   #4) Minecraft
-  GAMES_OPTIONS=""
+  GAMES_OPTIONS="1-4"
 #}}}
 #WEBSERVER {{{
   # 1) LAMP - APACHE, MariaDB & PHP
   # 2) LAPP - APACHE, POSTGRESQL & PHP
   # 3) LEMP - NGINX, MariaDB & PHP
   # 4) LEPP - NGINX, POSTGRESQL & PHP
-  WEBSERVER=4
+  WEBSERVER=
   POSTGIS="n"
 #}}}
 #FONTS {{{
